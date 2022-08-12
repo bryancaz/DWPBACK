@@ -31,7 +31,7 @@ app.use('/api/v1/categoria', categoriaRoute);
 app.use('/api/v1/viaje', viajeRoute);
 
 app.get('/', (req, res) => {
-  res.send('<h1 align="center">Bienvenido a tus gastos personales</h1>');
+  res.send('<h1 align="center">Bienvenido a la api/h1>');
 });
 
 app.listen(process.env.PORT || PORT, () => {
